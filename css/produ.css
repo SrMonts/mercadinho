@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ main {
+	padding: 20px;
+}
+
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.produtos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.produto {
+	width: 500px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 20px;
+}
+
+.produto img {
+	width: 100%;
+	height: auto;
+}
+
+.produto h2 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.produto p {
+	font-size: 16px;
+	margin-bottom: 10px;
+	text-align: left;
+    font-family: 'Bruno Ace SC', cursive;
+}
